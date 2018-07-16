@@ -1,0 +1,14 @@
+body {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: $crimson;
+  background-color: $fontgrey;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}

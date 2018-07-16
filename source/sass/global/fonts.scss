@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "CrimsonText";
+  font-display: swap;
+  src: local("CrimsonText"),
+    url("../../fonts/CrimsonText-Italic.woff2") format("woff2"),
+    url("../../fonts/CrimsonText-Italic.woff") format("woff"),
+    url("../../fonts/CrimsonText-Italic.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "MontserratBold";
+  font-display: swap;
+  src: local("MontserratBold"),
+    url("../../fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("../../fonts/Montserrat-Bold.woff") format("woff"),
+    url("../../fonts/Montserrat-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "MyriadPro";
+  font-display: swap;
+  src: local("MyriadPro"),
+    url("../../fonts/MyriadPro-Regular.woff2") format("woff2"),
+    url("../../fonts/MyriadPro-Regular.woff") format("woff"),
+    url("../../fonts/MyriadPro-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Selima";
+  font-display: swap;
+  src: local("Selima"),
+    url("../../fonts/Selima.woff2") format("woff2"),
+    url("../../fonts/Selima.woff") format("woff"),
+    url("../../fonts/Selima.ttf") format("ttf");
+}
