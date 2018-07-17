@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="js/popupMeal.js" as="script">
+    <link rel="preload" href="fonts/CrimsonText-Italic.woff2" as="font">
+    <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font">
+    <link rel="preload" href="fonts/MyriadPro-Regular.woff2" as="font">
+    <link rel="preload" href="fonts/Selima.woff2" as="font">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gratia</title>
+  </head>
+  <body>
+    <header class="page-header page-header--index">
+      <div class="page-header__main-navigation">
+        <div class="page-header__logo logo">
+          <a class="logo__link" href="#">
+            <picture>
+              <source type="image/webp" srcset="img/webp/logo-top.webp">
+              <img class="logo__image" src="img/raster/logo-top.png" width="34" height="34" alt="logo">
+            </picture>
+            Gratia
+          </a>
+        </div>
+        <nav class="page-header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a class="nav__link" href="#about">About</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__link" href="#">Gallery</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__link" href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <section class="slider">
+        <h2 class="visually-hidden">Slider</h2>
+        <ul class="slider__slides">
+          <li class="slider__slide slider__slide--1"></li>
+          <li class="slider__slide slider__slide--2">
+            <button class="slider__toggle slider__toggle--prev">Prev</button>
+            <button class="slider__toggle slider__toggle--next">Next</button>
+            <img class="slider__image" src="img/raster/slider-1.png" width="955" height="637" alt="Details">
+            <p class="slider__text">and perfection is not a detail</p>
+            <ul class="slider__numbers">
+              <li class="slider__numbers-item">
+                <a class="slider__link">01</a>
+              </li>
+              <li class="slider__numbers-item slider__numbers-item--active">
+                <a class="slider__link">02</a>
+              </li>
+              <li class="slider__numbers-item">
+                <a class="slider__link">03</a>
+              </li>
+            </ul>
+            <a class="slider__book book" href="contacts.html">Book a table</a>
+          </li>
+          <li class="slider__slide slider__slide--3"></li>
+        </ul>
+      </section>
+    </header>
+
+    <main class="page-main">
+      <h1 class="visually-hidden">Gratia</h1>
+      <section class="about" id="about">
+        <h2 class="about__title">perfection</h2>
+        <p class="about__text">Mirth learn it he given. At principle perfectly by sweet</p>
+        <ul class="about__list">
+          <li class="about__item">
+            <a class="about__link" href="#">Desserts</a>
+            <p class="about__p">Advantages entreaties mr he apartments do undefined se.</p>
+          </li>
+          <li class="about__item">
+            <a class="about__link about__link--smoothies" href="#">Smoothies</a>
+            <p class="about__p about__p--smoothies">How one dull get busy dare far. Detract yet delight wri.</p>
+          </li>
+          <li class="about__item">
+            <a class="about__link" href="#">Breakfast</a>
+            <p class="about__p">Polite do object at passed it is. Mrs assured add priva.</p>
+          </li>
+        </ul>
+        <a class="about__offers">Check other offers</a>
+      </section>
+
+      <section class="details">
+        <div class="details__wrapper">
+          <div class="details__info">
+            <h2 class="details__title">Details</h2>
+            <p class="details__text">Called though excuse length ye needed it he having. Fee.</p>
+            <a class="details__button">Preparation of our dishes</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <h2 class="features__title">How we reach this?</h2>
+        <p class="features__text">Polite do object at passed it is. Limits far yet turne.</p>
+        <ul class="features__list">
+          <li class="features__item">
+            <span class="features__digit features__digit--1">4</span>
+            <a class="features__link" href="#">Different locations</a>
+            <p class="features__p">Draw from upon here gone add one. If as increasing cont.</p>
+          </li>
+          <li class="features__item">
+            <span class="features__digit features__digit--2">532</span>
+            <a class="features__link features__link--blue" href="#">Fresh products</a>
+            <p class="features__p features__p--blue">Celebrated delightful an especially increasing instrume.</p>
+          </li>
+          <li class="features__item">
+            <span class="features__digit features__digit--3">16</span>
+            <a class="features__link" href="#">The best from the beginning</a>
+            <p class="features__p">An stairs as be lovers uneasy. Able rent long in do we.</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__logo">
+        <a class="logo__link" href="#">
+          <picture>
+            <source type="image/webp" srcset="img/webp/logo-bottom.webp">
+            <img class="logo__image" src="img/raster/logo-bottom.png" width="81" height="81" alt="logo">
+          </picture>
+        </a>
+        Gratia Restaurant
+      </div>
+      <ul class="page-footer__social">
+        <li class="page-footer__social-item">
+          <a class="page-footer__social-link page-footer__social-link--fb" href="#">Facebook</a>
+        </li>
+        <li class="page-footer__social-item">
+          <a class="page-footer__social-link page-footer__social-link--tw" href="#">Twitter</a>
+        </li>
+        <li class="page-footer__social-item">
+          <a class="page-footer__social-link page-footer__social-link--ig" href="#">Instagram</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

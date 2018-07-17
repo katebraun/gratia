@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="js/popupMeal.js" as="script">
+    <link rel="preload" href="fonts/CrimsonText-Italic.woff2" as="font">
+    <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font">
+    <link rel="preload" href="fonts/MyriadPro-Regular.woff2" as="font">
+    <link rel="preload" href="fonts/Selima.woff2" as="font">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gratia</title>
+  </head>
+  <body>
+    <header class="page-header page-header--inner">
+      <div class="page-header__main-navigation">
+        <div class="page-header__logo logo">
+          <a class="logo__link" href="#">
+            <picture>
+              <source type="image/webp" srcset="img/webp/logo-top.webp">
+              <img class="logo__image" src="img/raster/logo-top.png" width="34" height="34" alt="logo">
+            </picture>
+            Gratia
+          </a>
+        </div>
+        <nav class="page-header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a class="nav__link" href="index.html">About</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__link nav__link--active" href="">Menu</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__link" href="#">Gallery</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__link" href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main page-main--menu">
+      <section class="menu">
+        <h1 class="menu__title">Menu</h1>
+        <p class="menu__text">Any delicate you how kindness horrible outlived servant.</p>
+
+        <ul class="menu__list">
+          <li class="menu__item">
+            <picture>
+              <source type="image/webp" srcset="img/webp/main-dishes.webp">
+              <img class="logo__image" src="img/raster/main-dishes.jpg" width="562" height="407" alt="Main dishes">
+            </picture>
+            <h2 class="menu__name"><a class="menu__link">Main dishes</a></h2>
+            <p class="menu__p">Mirth learn it he given. Called though excuse length y.</p>
+          </li>
+          <li class="menu__item">
+            <picture>
+              <source type="image/webp" srcset="img/webp/soup.webp">
+              <img class="logo__image" src="img/raster/soup.jpg" width="562" height="407" alt="Soup">
+            </picture>
+            <h2 class="menu__name"><a class="menu__link">Soup</a></h2>
+            <p class="menu__p">Sentiments two occasional affronting solicitude travell.</p>
+          </li>
+          <li class="menu__item">
+            <picture>
+              <source type="image/webp" srcset="img/webp/burgers.webp">
+              <img class="logo__image" src="img/raster/burgers.jpg" width="562" height="407" alt="Burgers">
+            </picture>
+            <h2 class="menu__name"><a class="menu__link">Hamburgers</a></h2>
+            <p class="menu__p">At none neat am do over will. Any delicate you how ki.</p>
+          </li>
+          <li class="menu__item">
+            <picture>
+              <source type="image/webp" srcset="img/webp/dessert.webp">
+              <img class="logo__image" src="img/raster/dessert.jpg" width="562" height="407" alt="Desserts">
+            </picture>
+            <h2 class="menu__name"><a class="menu__link">Desserts</a></h2>
+            <p class="menu__p">If in so bred at dare rose lose good. You high bed wish.</p>
+          </li>
+          <li class="menu__item">
+            <picture>
+              <source type="image/webp" srcset="img/webp/bbq.webp">
+              <img class="logo__image" src="img/raster/bbq.jpg" width="562" height="407" alt="Barbecue">
+            </picture>
+            <h2 class="menu__name"><a class="menu__link">Barbecue</a></h2>
+            <p class="menu__p">Draw fond rank form nor the day eat. Took sold add p.</p>
+          </li>
+          <li class="menu__item">
+            <picture>
+              <source type="image/webp" srcset="img/webp/salad.webp">
+              <img class="logo__image" src="img/raster/salad.jpg" width="562" height="407" alt="Salads">
+            </picture>
+            <h2 class="menu__name"><a class="menu__link">Salads</a></h2>
+            <p class="menu__p">Agreeable promotion eagerness as we resources househ.</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__logo">
+        <a class="logo__link" href="#">
+          <picture>
+            <source type="image/webp" srcset="img/webp/logo-bottom.webp">
+            <img class="logo__image" src="img/raster/logo-bottom.png" width="81" height="81" alt="logo">
+          </picture>
+        </a>
+        Gratia Restaurant
+      </div>
+      <ul class="page-footer__social">
+        <li class="page-footer__social-item">
+          <a class="page-footer__social-link page-footer__social-link--fb" href="#">Facebook</a>
+        </li>
+        <li class="page-footer__social-item">
+          <a class="page-footer__social-link page-footer__social-link--tw" href="#">Twitter</a>
+        </li>
+        <li class="page-footer__social-item">
+          <a class="page-footer__social-link page-footer__social-link--ig" href="#">Instagram</a>
+        </li>
+      </ul>
+    </footer>
+
+    <section class="modal meal">
+      <div class="meal__image">
+        <picture>
+          <source type="image/webp" srcset="img/webp/meal.webp">
+          <img class="meal__pic" src="img/raster/meal.jpg" width="651" height="840" alt="Burger">
+        </picture>
+      </div>
+      <div class="meal__info">
+        <div class="meal__name">
+          <h2 class="meal__title">Chicken burger</h2>
+          <p class="meal__text">Considered discovered ye sentiments projecting entreatie.</p>
+        </div>
+        <div class="meal__components">
+          <b class="meal__term">Components</b>
+          <p class="meal__ingred">chicken breast fillet, marinated overnight accompained with tomato cos lettuce & Spanish red onion</p>
+        </div>
+        <div class="meal__price">
+          <p class="meal__cost">15$</p>
+          <p class="meal__p">Total cost</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

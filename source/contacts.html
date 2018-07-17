@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="js/popupMeal.js" as="script">
+    <link rel="preload" href="fonts/CrimsonText-Italic.woff2" as="font">
+    <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font">
+    <link rel="preload" href="fonts/MyriadPro-Regular.woff2" as="font">
+    <link rel="preload" href="fonts/Selima.woff2" as="font">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gratia | Book a table</title>
+  </head>
+  <body>
+    <header class="page-header page-header--inner">
+      <div class="page-header__main-navigation">
+        <div class="page-header__logo logo">
+          <a class="logo__link" href="index.html">
+            <picture>
+              <source type="image/webp" srcset="img/webp/logo-top.webp">
+              <img class="logo__image" src="img/raster/logo-top.png" width="34" height="34" alt="logo">
+            </picture>
+            Gratia
+          </a>
+        </div>
+        <nav class="page-header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a class="nav__link" href="index.html">About</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__link" href="#">Gallery</a>
+            </li>
+            <li class="nav__list-item">
+              <a class="nav__link nav__link--active" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main page-main--contacts">
+      <section class="booking">
+        <h1 class="booking__title">Book a table</h1>
+        <p class="booking__text">Considered discovered ye sentiments projecting entreat.</p>
+
+        <form class="booking__form form" action="echo.htmlacademy.ru" method="POST">
+          <div class="form__row">
+            <label class="visually-hidden" for="day"></label>
+            <input type="text" class="form__input form__input--short" name="day" id="day" placeholder="DD" required>
+
+            <label class="visually-hidden" for="month"></label>
+            <input type="text" class="form__input form__input--short" name="month" id="month" placeholder="MM" required>
+
+            <label class="visually-hidden" for="year"></label>
+            <input type="text" class="form__input form__input--short" name="year" id="year" placeholder="YYYY" required>
+
+            <label class="visually-hidden" for="hour"></label>
+            <input type="text" class="form__input form__input--middle" name="hour" id="hour" placeholder="HOUR" required>
+
+            <label class="visually-hidden" for="quantity"></label>
+            <input type="text" class="form__input form__input--middle" name="quantity" id="quantity" placeholder="NUMBER OF PEOPLE" required>
+          </div>
+          <div class="form__row">
+            <label class="visually-hidden" for="your-name"></label>
+            <input type="text" class="form__input form__input--middle" name="your-name" id="your-name" placeholder="FIRST NAME AND LAST NAME" required>
+
+            <label class="visually-hidden" for="phone"></label>
+            <input type="phone" class="form__input form__input--middle" name="phone" id="phone" placeholder="PHONE NUMBER" required>
+          </div>
+          <div class="form__row">
+            <label class="visually-hidden" for="email"></label>
+            <input type="email" class="form__input form__input--middle" name="email" id="email" placeholder="E-MAIL" required>
+
+            <select class="form__input__select">
+              <option value="none">PREPARE MENU</option>
+              <option value="it">ITALIAN</option>
+              <option value="ch">CHINESE</option>
+              <option value="fr">FRENCH</option>
+              <option value="ru">RUSSIAN</option>
+              <option value="jp">JAPANESE</option>
+            </select>
+          </div>
+          <label class="form__label--textarea">
+            <textarea class="form__input--textarea" resize="none" placeholder="Your message.."></textarea>
+          </label>
+
+          <button class="form__button" type="submit">SEND</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__logo">
+        <a class="logo__link" href="index.html">
+          <picture>
+            <source type="image/webp" srcset="img/webp/logo-bottom.webp">
+            <img class="logo__image" src="img/raster/logo-bottom.png" width="81" height="81" alt="logo">
+          </picture>
+        </a>
+        Gratia Restaurant
+      </div>
+      <ul class="page-footer__social">
+        <li class="page-footer__social-item">
+          <a class="page-footer__social-link page-footer__social-link--fb" href="#">Facebook</a>
+        </li>
+        <li class="page-footer__social-item">
+          <a class="page-footer__social-link page-footer__social-link--tw" href="#">Twitter</a>
+        </li>
+        <li class="page-footer__social-item">
+          <a class="page-footer__social-link page-footer__social-link--ig" href="#">Instagram</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
